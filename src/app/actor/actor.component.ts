@@ -23,6 +23,7 @@ export class ActorComponent implements OnInit {
       });
       this._moviesSerice.getPersonCast(id).subscribe(res => {
         this.movies = res.cast;
+        //THIS IS DHANANJAY HAREL
       });
     })
   }
